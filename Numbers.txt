@@ -1,0 +1,8 @@
+numbers = []
+for i in range(10) :
+    a = input("Give a number :    ")
+    if a > 0 :
+        numbers = numbers + [a]
+    elif a < 0 :
+         numbers = [a] + numbers
+    print (numbers)

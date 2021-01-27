@@ -1,0 +1,6 @@
+list = []
+number = input("Give numbers :  ")
+while number != 0:
+    list.insert(0,number)
+    number = input("Give numbers :  ")
+print("List is :",list)

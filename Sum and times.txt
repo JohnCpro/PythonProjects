@@ -1,0 +1,7 @@
+sum = 0 
+meter = 0 
+while sum <= 100:
+    number = input("give a number : ")
+    sum = sum + number
+    meter+=1
+print ("The sum is :",sum,"and done",meter,"times")

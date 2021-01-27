@@ -1,0 +1,8 @@
+def SayGoodMorning():
+    print ("Good Morning !")
+SayGoodMorning()
+
+def SayHello(name):
+    print ("Hello"+" "+name)
+SayHello("Maria !")
+

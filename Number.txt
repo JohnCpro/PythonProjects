@@ -1,0 +1,4 @@
+def SayHello(number):
+    print ("The number is: ",number)
+SayHello(4)
+SayHello(3)

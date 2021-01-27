@@ -1,0 +1,13 @@
+negative = []
+positive = []
+for number in range (10):
+    a = input("give a number :    ")
+    if a > 0:
+        positive = positive + [a]
+    elif a < 0:
+        negative = negative + [a]
+    print(negative,positive)       
+    print("Program is end")
+    
+    
+    

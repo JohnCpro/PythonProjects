@@ -1,0 +1,15 @@
+def SquareArea(side):
+    area = side * side # or side ** 2
+    print ("The square area is",area)
+
+def RectangleArea(length,width):
+    area = length * width
+    print (area)
+
+side = input("Give side of rectagle area: ")
+RectagleArea(side)
+
+l = input("Give legth of rectagle: ")
+w = input("Give width of rectagle: ")
+RectagleArea(l,w)
+

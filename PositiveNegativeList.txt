@@ -1,0 +1,18 @@
+import random
+randomlist = []
+list_positive = []
+list_negative = []
+for i in range(100):
+    n = random.randint(-100,100)
+    randomlist.append(n)
+print("Random list is :",randomlist)
+for i in randomlist:
+    if i > 0:
+        list_positive.append(i)
+for i in randomlist:
+    if i < 0:
+        list_negative.append(i)
+print("The list with positive numbers are :",list_positive)
+print("The list with negative numbers are :",list_negative)
+  
+

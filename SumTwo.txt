@@ -1,0 +1,6 @@
+sum = 0  
+number = input("Give a number : ") 
+while number != 0:       
+    sum = sum + number 
+    number = input("Give a Number : ")  
+print ("The sum is:",sum)

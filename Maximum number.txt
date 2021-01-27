@@ -1,0 +1,27 @@
+sum = 0.0
+meter = 0.0  
+list = []
+
+while sum <= 1000:
+    number = input("Give number :")
+    meter += 1                       
+    sum += number             
+    list.append(number)             
+
+
+print ("The sum is : ",sum) 
+Average = sum / meter              
+print ("Average is",Average)       
+
+maximum = list[0]   
+times = 0                  
+
+for number in list:
+    if number > maximum:   
+        maximum = number    
+        times = 1             
+    elif number == maximum:  
+        times = times + 1  
+
+print ("The maximum number is",maximum,"and exists",times,"times")
+
