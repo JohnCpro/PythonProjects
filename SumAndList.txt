@@ -1,0 +1,12 @@
+My_list_A= []
+sum = 0
+print(" If you want to know, how is the sum, write the  number : 0 ")
+number = input("give random numbers 1-20 :  ")
+while number  != 0:
+    sum = sum + number
+    number = My_list_A.append(number)
+    number = input("give random numbers 1-20:  ")
+else:
+    print("Programm finished")
+    print (My_list_A," The sum is : ",sum)  
+
