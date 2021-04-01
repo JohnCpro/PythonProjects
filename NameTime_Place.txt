@@ -1,0 +1,11 @@
+list= ["Takis","Makis","Giorgos","Lakis","Sakis","Makis","Takis","Giorgos","Kostas","Giannis","Takis","Giorgos","Marios","Takis","Fanis"]
+name = raw_input("Give your name :  ")
+new_list = []
+i = 0
+length_list = len(list)
+count = list.count(name)
+while i < length_list:
+    if name == list[i] and count > 0:
+        new_list.append(i)
+    i = i + 1
+print("The",name,"is on the list",list,"in place/in places",new_list,"of the list",count,"time/times")
